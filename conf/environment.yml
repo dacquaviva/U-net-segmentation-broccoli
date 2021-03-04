@@ -1,0 +1,17 @@
+name: broccoli-head-segmentation-env
+channels:
+  - defaults
+  - pytorch
+dependencies:
+  - future
+  - tensorboard
+  - protobuf
+  - scikit-learn
+  - jupyter
+  - opencv
+  - scikit-image
+  - matplotlib
+  - tqdm
+  - torchvision=0.8.1
+  - pytorch=1.7.0
+  - seaborn
