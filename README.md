@@ -14,7 +14,7 @@ This approach generates segmentation masks for broccoli heads in an unsupervised
 - GrabCut : https://docs.opencv.org/master/d7/d1b/group__imgproc__misc.html#ga909c1dda50efcbeaa3ce126be862b37f
 ![alt text](images/unsupervised_pipeline.png "Unsupervised pipeline")
 ## Dataset
-The ground truth masks format supported by this implementation is a JSON file containing a polygon of points describing the shape of broccoli heads. An examples of dataset can be found at `IRONMAN/Development/200 training data/Segmentation individual_head_segmentation/unsupervised`.
+The ground truth masks format supported by this implementation is a JSON file containing a polygon of points describing the shape of broccoli heads.
 ## Usage
 Run unsupervised/scripts/create_masks.py to create segmented masks given broccoli heads images as input. 
 The script's arguments are:
